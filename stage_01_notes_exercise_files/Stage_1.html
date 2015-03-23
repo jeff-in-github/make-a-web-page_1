@@ -1,0 +1,161 @@
+<!doctype html>
+<html>
+    <head>
+    	<link rel="stylesheet" type="text/css" href="style.css">
+        <meta charset="utf-8">
+        <title>Jeff's Stage 1 Notes</title>
+    </head>
+    
+    <body>
+        <!-- ************************* Lesson 01 ************************************ -->
+        <div class="lesson">
+            <div>
+               	<h1>Lesson 1</h1>
+                <h2>HTML and Web Basics</h2>
+                <br>
+                </div>
+            <br>
+        
+        <!-- ************************* L-01 Description ***************************** -->
+            <div class="description"><b>Description:</b> Lesson 1 is about how to use HTML to set up the web page basics, sort everything out, and give it an underlying structure.</div> 
+            <br>
+            
+        <!-- ************************* L-01 T-01 S-01 ******************************* -->
+            <div class="topic">
+                <span class="topic_header"> Components of the web</span>
+                <p>Browser - Reads and displays HTML</p>
+                <p>The Net - Provides connectivity</p>
+                <p>Servers - Computers that store and send copies of HTML documents</p>
+                <p>Transfer Protocol - The transmission method for requesting, retrieving, sending, and receiving the HTML files</p>
+            </div> 
+            <br>
+        
+        <!-- ************************* L-01 T-02 S-01 ******************************* -->
+            <div class="topic">
+                <span class="topic_header">HTML</span>
+                <p><b>Structure</b></p>
+                <p>HTML is the backbone of the web, which is really just billions of HTML documents. The tags open and close with the Greater than and Less than characters.  They have names, and attributes. The closing tag is the same as the opening, except it uses the slash switch inside the tag, right in front of the name.Void tags don't need a closing tag. Some tags have multiple attributes at the same time.</p>
+            </div>
+            <br>
+        
+        <!-- ************************* L-01 T-02 S-02 ******************************* -->
+            <div class="topic">
+                <p><b>Inline Tags</b></p>
+                <p>Anchor - Adds links</p>
+                <p>Break - like a return character</p>
+                <p>Image - A graphic</p>
+                <p>Span - Don't know exactly what the point of this is</p>
+            </div>
+            <br>
+        
+        <!-- ************************* L-01 T-02 S-03 ******************************* -->
+            <div class="topic">
+                <p><b>Block Tags</b></p>
+                <p>Paragraph - Creates an invisible box</p>
+                <p>Div - Also creates an invisible box</p>
+            </div>
+            <br>
+        
+        <!-- ************************* L-01 T-02 S-04 ******************************* -->
+            <div class="topic">
+                <p><b>Whitespace</b></p> 
+                <p>It doesn't matter how much whitespace you add when edting HTML, you cannot use the Return key or space bar to add whitespace to the HTML document just by typing it into the HTML. It always reads as just one space.</p>
+            </div>
+        </div>
+        <br>
+        <br>
+        <br>
+        
+        <!-- *************************  End Lesson 01 ******************************* -->
+        <!-- ************************* Lesson 02 ******************************* -->
+        <div class="lesson">
+            <div>
+            <h1>Lesson 2</h1>
+            <h2>Structure, Styling, Functionality of Web Pages</h2>
+            </div>
+            <br>
+         
+       <!-- ************************* L-02 Description ******************************* -->
+            <div class="description"><b>Description:</b> Lesson 2 is about how to use CSS to give it some razzle-dazzle.</div> 
+            <br>
+        <!-- ************************* L-02 T-01 S-01 ******************************* -->
+            
+            <div class="topic">
+                <span class="topic_header">HTML and CSS</span>
+                <div class="list">
+                    <p class="list_stem">Accronyms:</p>
+                    <ul>
+                      <li>HTML - Hypertext Markup Language</li>
+                      <li>CSS - Cascading Style Sheet</li>
+                      <li>JS - JavaScript</li>
+                      <li>DOM - Document Object Model</li>
+                    </ul>
+                </div>
+              <p>HTML provides structure, the way blueprints define the structure of a building.</p>
+                <p>CSS provides styling, the way interior design provides styling in the building.</p>
+                <p>JS provides functionality and interactivity, similarly to plumbing, electrical, HVAC, etc.</p>
+            </div>
+            <br>
+        
+        <!-- ************************* L-02 T-02 S-01 ******************************* -->
+            <div class="topic">
+                <span class="topic_header">HTML and Structure</span>
+                <p>HTML uses a logical tree for structuring.</p>
+                <p>It works from the top-down in parent / child relationships.</p>
+                <p><strong>CSS and Styling</strong></p>
+                <p>CSS addresses only the styling.</p>
+                <p>The same styling will work on multiple structures, or you can have multiple styles for the same structure.</p>
+                <p>The styling is independent of the HTML, so the CSS can be changed out at will.</p>
+            </div>
+            <br>
+        
+        <!-- ************************* L-02 T-03 S-01 ******************************* -->
+            <div class="topic">
+                <span class="topic_header">The DOM</span>
+                <p>The document object model is a set of rules for what the browser will do when it encounters HTML.</p>
+                <p>The browser builds the DOM tree from the HTML.</p>
+                <p>Every element (tag) in HTML is part of the tree (similar to leaves on a tree, parts of a tree, etc?).</p>
+                <div class="list">
+                    <p class="list_stem">Elements:</p>
+                    <ul>
+                      <li>Have names (types)</li>
+                      <li>Have content (content may be empty or another tag)</li>
+                      <li>Have attributes</li>
+                      <li>Attributes have values</li>
+                    </ul>
+                </div>
+            </div>
+            <br>
+        
+        <!-- ************************* L-02 T-04 S-01 ******************************* -->
+            <div class="topic">
+            <span class="topic_header">The Box Model</span>
+            <p>Everything's a box. Boxes within boxes, like <span class="published_title">Inception</span>.</p>
+            <p>Rectangles make changes easier.</p>
+            </div>
+            <br>
+            
+            
+         <!-- ************************* L-02 T-05 S-01 ******************************* -->
+            <div class="topic">
+            <span class="topic_header">Cascading Style Sheets</span>
+            <p>Cascading refers to hierarchical structure, and which style will ultimately be applied if more than one are defined.</p>
+            <p>Inheritance refers to nested elements, where elments deeper in the nest automatically get attributes assigned to them from elements higher in the nest.</p>
+            <p>Selectors are a way to "select" which elements on the page will receive the defined styling. syntax is: <em>Selector {Attribute(s): value(s);}</em></p>
+            </div>
+            <br>
+            
+         <!-- ************************* L-02 T-06 S-01 ******************************* -->
+            <div class="topic">
+            <span class="topic_header">Avoid Repetition</span>
+            <p>The Accronym DYR is a tongue-in-cheek reference to &quot;Don't Repeat Yourself.&quot;</p>
+            <p>Keep the design as simple as possible and make use of cascading attributes, to limit the number of changes you have to make in the code. You only want a single source for any part of your code..</p>
+            <p>Repetitive code is complicated code.</p>
+            </div>
+            <br>
+        </div>
+    <!-- *************************  End Lesson 02 ******************************* -->
+    
+    
+    </body>
+</html>
